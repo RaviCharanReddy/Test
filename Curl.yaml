@@ -1,5 +1,5 @@
 ---
-- host: hosts
+- hosts: hosts
   remote_user: root
   tasks:
   - name: Install curl
