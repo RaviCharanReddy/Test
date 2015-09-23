@@ -1,0 +1,6 @@
+---
+- host: hosts
+  remote_user: root
+  tasks:
+  - name: Install curl
+    apt: name=curl state=present
