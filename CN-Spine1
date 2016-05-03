@@ -1,0 +1,28 @@
+---
+hostname: CN-Spine1
+
+devices:
+ - device: CN-Spine1
+
+pingtest:
+ - ip: 192.168.10.2
+   count: 10
+interfaces:
+ - name: Ethernet2/1
+   enable: True
+   description: 
+ - name: Ethernet2/2
+   enable: True
+   description: 
+ - name: Ethernet2/3
+   enable: True
+   description: 
+ - name: Ethernet2/4
+   enable: True
+   description: 
+ - name: Ethernet64/1
+   enable: True
+   description: 
+ - name: Management1
+   enable: True
+   description: 
